@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <noscript><style>*,:after,:before{--a:1;--b:0;--c:0 0 #0000;--d:var(--e,/*!*/ /*!*/);border-color:rgba(228,228,231,var(--a));border-style:solid;border-width:0;box-sizing:border-box}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5;-moz-tab-size:4;tab-size:4}body{font-family:inherit;line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}strong{font-weight:bolder}button,input{color:inherit;font-family:inherit;font-size:100%;line-height:inherit;margin:0;padding:0}button{text-transform:none}button{-webkit-appearance:button}::-moz-focus-inner{border-style:none;padding:0}:-moz-focusring{outline:ButtonText dotted 1px}:-moz-ui-invalid{box-shadow:none}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}figure,h2,hr,p{margin:0}button{background-color:transparent;background-image:none}ul{margin:0;padding:0}ul{list-style:none}img{border-style:solid}input::-webkit-input-placeholder{color:#a1a1aa}input:-ms-input-placeholder{color:#a1a1aa}input::placeholder{color:#a1a1aa}button{cursor:pointer}h2{font-size:inherit;font-weight:inherit}a{color:inherit;-webkit-text-decoration:inherit;text-decoration:inherit;color:var(--f);font-weight:var(--g)}img,svg{display:block;vertical-align:middle}img{height:auto;max-width:100%}@-webkit-keyframes a{to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes a{to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}:root{--h:#000;--i:#fff;--j:#fff;--k:#a09ba5;--l:#fa684a;--m:1.25rem;--n:3.5rem;--nMobile:2.2rem;--p:6.5rem;--pMobile:5.8rem;--r:44px;--s:18px;--t:12px;--rMobile:28px;--sMobile:18px;--tMobile:12px;--x:linear-gradient(180deg,#000,#00000000) 0% 0% no-repeat padding-box;--xMobile:#000;--z:66px;--zMobile:70px;--h:linear-gradient(180deg,#000,#00000000) 0% 0% no-repeat padding-box;--ab:#000;--ac:#1a181c;--ad:#1a181c;--ae:#f8684a;--af:#a09ca4;--f:#fff;--ag:rgba(177,138,165,.3);--ah:#1a181c;--ai:"Outfit",sans-serif;--aj:700;--ak:"Lato",sans-serif;--al:normal;--am:linear-gradient(96deg,#fc634f,#ef8c26);--an:#fc634f;--ao:#000;--ap:#000;--aq:transparent;--ar:#000;--as:linear-gradient(96deg,#fc634f,#ef8c26);--at:#fff;--au:#000;--av:transparent;--aw:4px;--ax:2px;--ay:"Lato";--ayWeight:700;--ba:0.875rem;--bb:0.345rem 1.8rem;--bc:1rem;--bd:0.3rem 9px;--be:1.4rem;--bf:1rem 2.5rem;--bg:1rem;--bh:0.5px;--bi:#fc634f;--bj:#000;--bk:#fff;--bl:#fc634f;--bm:#fc634f;--bn:#000;--bo:#000;}:root .ch2-container .ch2-dialog.ch2-dialog-bottom.ch2-visible{-webkit-box-flex-wrap:wrap;-webkit-box-pack:justify;align-items:center;background-color:var(--bj);border-color:var(--bl);border-top-width:2px;display:flex;flex-wrap:wrap;justify-content:space-between;padding:25px 30px}:root .ch2-container .ch2-dialog .ch2-dialog-content{margin:0 0 20px;overflow:hidden;width:100%}@media (min-width:768px){:root .ch2-container .ch2-dialog.ch2-dialog-bottom.ch2-visible{-webkit-box-flex-wrap:nowrap;flex-wrap:nowrap}:root .ch2-container .ch2-dialog .ch2-dialog-content{margin:0 40px 0 0}}:root #ch2-dialog-title{display:none}:root #ch2-dialog-description,:root #ch2-dialog-description+p{color:var(--bk);display:inline;font-family:var(--bp,sans-serif);font-size:var(--bq,1pc);font-weight:var(--br,400);margin:0 4px 0 0}:root #ch2-dialog-description+p>.ch2-learn-more{border:none;color:inherit;font-size:inherit;-webkit-text-decoration:underline;text-decoration:underline}:root .ch2-container .ch2-dialog .ch2-dialog-actions{display:flex;flex-direction:column;gap:9pt;margin:0;width:100%}@media (min-width:768px){:root .ch2-container .ch2-dialog .ch2-dialog-actions{align-items:flex-end}}@media (min-width:1024px){:root #ch2-dialog-description,:root #ch2-dialog-description+p{font-size:var(--bs,1pc)}:root .ch2-container .ch2-dialog .ch2-dialog-actions{-webkit-box-flex-wrap:nowrap;-webkit-box-pack:end;-ms-flex-pack:end;flex-direction:row;flex-wrap:nowrap;justify-content:flex-end}}:root .ch2-container .ch2-btn{-webkit-box-pack:center;-ms-flex-pack:center;align-items:baseline;border:1px solid transparent;border-radius:5px;box-shadow:none;display:flex;font-family:var(--bt,sans-serif);font-size:var(--bu,1pc);font-weight:var(--br,600);justify-content:center;line-height:1!important;margin:0;padding:15px 0;text-transform:uppercase;width:100%}@media (min-width:1024px){:root .ch2-container .ch2-btn{width:215px}}:root .ch2-container .ch2-btn.ch2-btn-primary{background-color:var(--bm);border-color:var(--bm);color:var(--bn)}:root .ch2-container .ch2-btn.ch2-btn-secondary{background-color:var(--bo);border-color:var(--bo);color:var(--bv)}:root .ch2-container .ch2-btn.ch2-allow-all-btn,:root .ch2-container .ch2-btn.ch2-open-settings-btn{margin-right:0}:root .ch2-container .ch2-btn.ch2-btn-text{-webkit-text-decoration:none;text-decoration:none}:root .ch2-container .ch2-settings-actions .ch2-btn.ch2-btn-primary{border-color:var(--bo);box-shadow:none}:root #ch2-settings .ch2-btn.ch2-btn.ch2-btn-secondary{background-color:var(--bj);border-color:var(--bj);color:var(--bv);transition:background}:root #ch2-settings>.ch2-btn{width:100%}:root #ch2-settings>.ch2-btn.ch2-allow-all-btn{margin-top:24px}@media (min-width:768px){:root #ch2-settings>.ch2-btn{width:215px}:root #ch2-settings>.ch2-btn.ch2-allow-all-btn{float:left;margin:20px 9pt 0 0}}:root #ch2-settings>.ch2-btn.ch2-deny-all-btn{margin-top:9pt}:root .ch2-settings-actions>.ch2-btn{width:100%}:root .ch2-container .ch2-switch input:checked+label{background-color:var(--bo)}@font-face{font-display:swap;font-family:Lato;font-style:normal;font-weight:100;src:url(/static-landing/S6u8w4BMUTPHh30AUi-qJCY.woff2) format("woff2");unicode-range:u+0100-02af,u+0304,u+0308,u+0329,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff}@font-face{font-display:swap;font-family:Lato;font-style:normal;font-weight:100;src:url(/static-landing/S6u8w4BMUTPHh30AXC-q.woff2) format("woff2");unicode-range:u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd}@font-face{font-display:swap;font-family:Lato;font-style:normal;font-weight:300;src:url(/static-landing/S6u9w4BMUTPHh7USSwaPGR_p.woff2) format("woff2");unicode-range:u+0100-02af,u+0304,u+0308,u+0329,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff}@font-face{font-display:swap;font-family:Lato;font-style:normal;font-weight:300;src:url(/static-landing/S6u9w4BMUTPHh7USSwiPGQ.woff2) format("woff2");unicode-range:u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd}@font-face{font-display:swap;font-family:Lato;font-style:normal;font-weight:400;src:url(/static-landing/S6uyw4BMUTPHjxAwXjeu.woff2) format("woff2");unicode-range:u+0100-02af,u+0304,u+0308,u+0329,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff}@font-face{font-display:swap;font-family:Lato;font-style:normal;font-weight:400;src:url(/static-landing/S6uyw4BMUTPHjx4wXg.woff2) format("woff2");unicode-range:u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd}@font-face{font-display:swap;font-family:Lato;font-style:normal;font-weight:700;src:url(/static-landing/S6u9w4BMUTPHh6UVSwaPGR_p.woff2) format("woff2");unicode-range:u+0100-02af,u+0304,u+0308,u+0329,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff}@font-face{font-display:swap;font-family:Lato;font-style:normal;font-weight:700;src:url(/static-landing/S6u9w4BMUTPHh6UVSwiPGQ.woff2) format("woff2");unicode-range:u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd}@font-face{font-display:swap;font-family:Lato;font-style:normal;font-weight:900;src:url(/static-landing/S6u9w4BMUTPHh50XSwaPGR_p.woff2) format("woff2");unicode-range:u+0100-02af,u+0304,u+0308,u+0329,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff}@font-face{font-display:swap;font-family:Lato;font-style:normal;font-weight:900;src:url(/static-landing/S6u9w4BMUTPHh50XSwiPGQ.woff2) format("woff2");unicode-range:u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd}@font-face{font-display:swap;font-family:Lilita One;font-style:normal;font-weight:400;src:url(/static-landing/i7dPIFZ9Zz-WBtRtedDbYE98RWq7.woff2) format("woff2");unicode-range:u+0100-02af,u+0304,u+0308,u+0329,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff}@font-face{font-display:swap;font-family:Lilita One;font-style:normal;font-weight:400;src:url(/static-landing/i7dPIFZ9Zz-WBtRtedDbYEF8RQ.woff2) format("woff2");unicode-range:u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd}@font-face{font-display:swap;font-family:Outfit;font-style:normal;font-weight:300;src:url(/static-landing/QGYyz_MVcBeNP4NjuGObqx1XmO1I4W61O4i0ExAo.woff2) format("woff2");unicode-range:u+0100-02af,u+0304,u+0308,u+0329,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff}@font-face{font-display:swap;font-family:Outfit;font-style:normal;font-weight:300;src:url(/static-landing/QGYyz_MVcBeNP4NjuGObqx1XmO1I4W61O4a0Ew.woff2) format("woff2");unicode-range:u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd}@font-face{font-display:swap;font-family:Outfit;font-style:normal;font-weight:500;src:url(/static-landing/QGYyz_MVcBeNP4NjuGObqx1XmO1I4QK1O4i0ExAo.woff2) format("woff2");unicode-range:u+0100-02af,u+0304,u+0308,u+0329,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff}@font-face{font-display:swap;font-family:Outfit;font-style:normal;font-weight:500;src:url(/static-landing/QGYyz_MVcBeNP4NjuGObqx1XmO1I4QK1O4a0Ew.woff2) format("woff2");unicode-range:u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd}@font-face{font-display:swap;font-family:Outfit;font-style:normal;font-weight:600;src:url(/static-landing/QGYyz_MVcBeNP4NjuGObqx1XmO1I4e6yO4i0ExAo.woff2) format("woff2");unicode-range:u+0100-02af,u+0304,u+0308,u+0329,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff}@font-face{font-display:swap;font-family:Outfit;font-style:normal;font-weight:600;src:url(/static-landing/QGYyz_MVcBeNP4NjuGObqx1XmO1I4e6yO4a0Ew.woff2) format("woff2");unicode-range:u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd}@font-face{font-display:swap;font-family:Outfit;font-style:normal;font-weight:700;src:url(/static-landing/QGYyz_MVcBeNP4NjuGObqx1XmO1I4deyO4i0ExAo.woff2) format("woff2");unicode-range:u+0100-02af,u+0304,u+0308,u+0329,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff}@font-face{font-display:swap;font-family:Outfit;font-style:normal;font-weight:700;src:url(/static-landing/QGYyz_MVcBeNP4NjuGObqx1XmO1I4deyO4a0Ew.woff2) format("woff2");unicode-range:u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd}@font-face{font-display:swap;font-family:Outfit;font-style:normal;font-weight:800;src:url(/static-landing/QGYyz_MVcBeNP4NjuGObqx1XmO1I4bCyO4i0ExAo.woff2) format("woff2");unicode-range:u+0100-02af,u+0304,u+0308,u+0329,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff}@font-face{font-display:swap;font-family:Outfit;font-style:normal;font-weight:800;src:url(/static-landing/QGYyz_MVcBeNP4NjuGObqx1XmO1I4bCyO4a0Ew.woff2) format("woff2");unicode-range:u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd}@font-face{font-display:swap;font-family:Outfit;font-style:normal;font-weight:900;src:url(/static-landing/QGYyz_MVcBeNP4NjuGObqx1XmO1I4ZmyO4i0ExAo.woff2) format("woff2");unicode-range:u+0100-02af,u+0304,u+0308,u+0329,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff}@font-face{font-display:swap;font-family:Outfit;font-style:normal;font-weight:900;src:url(/static-landing/QGYyz_MVcBeNP4NjuGObqx1XmO1I4ZmyO4a0Ew.woff2) format("woff2");unicode-range:u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd}body,html{-webkit-font-smoothing:antialiased;background:var(--ab);color:var(--i);display:flex;flex-direction:column;font-display:fallback;font-family:var(--ak);height:auto;min-height:100vh;font-size:var(--bw,1pc)}a:hover{-webkit-text-decoration:underline;text-decoration:underline}a:focus{--c:0 0 #0000;--bx:0px;border-radius:0;box-shadow:var(--by,0 0 #0000),var(--bz,0 0 #0000),var(--c);outline:transparent solid 2px;outline-offset:2px}.a{align-items:center;height:var(--zMobile);margin-left:auto;margin-right:auto;padding-bottom:0;position:sticky;top:0;width:100%;z-index:2}@media print{.a{display:none}}@media (min-width:1024px){body,html{font-size:var(--ca,18px)}.a{height:var(--z)}}.b{background:var(--xMobile);height:100%;position:absolute;width:100%;z-index:0}.b[data-fade-background-mobile=true]{opacity:0;transition-duration:.3s;transition-timing-function:cubic-bezier(.4,0,.2,1)}@media (min-width:1024px){.b{background:var(--x)}.b[data-fade-background=true]{opacity:0}.b[data-fade-background=true],.b[data-fade-background=true].visible{transition-duration:.3s;transition-timing-function:cubic-bezier(.4,0,.2,1)}.b[data-fade-background=true].visible{opacity:1}}.c{-webkit-box-align:center;-ms-flex-align:center;-webkit-box-pack:justify;align-items:center;display:flex;height:100%;justify-content:space-between;padding:0;position:relative;z-index:2}.c,.d{width:100%}.d{background:var(--h);position:absolute;top:var(--zMobile)}@media (min-width:1024px){.d{background:0 0;display:flex;height:inherit;position:relative;top:0;width:auto}}.e{-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;align-items:center;border-top:1px solid var(--ag);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);justify-content:space-evenly;text-align:center}.e>div{border-right:1px solid var(--ag);padding-bottom:.375rem;padding-top:.375rem}.e>div:last-child{border-right:none}@media (min-width:1024px){.e{-webkit-box-pack:start;-ms-flex-pack:start;display:flex;justify-content:flex-start;padding-bottom:0;padding-top:0;margin-left:4.656rem}.e>div{border:none;padding-bottom:0;padding-top:0}}.f{-webkit-box-pack:center;-ms-flex-pack:center;display:inline-flex;justify-content:center}.f,.g{align-items:center}.g{cursor:pointer;display:flex}.g[data-custom-style=button]{-ms-flex-item-align:flex-start;--cb:1;--cc:1;--a:1;align-self:flex-start;background-color:rgba(255,255,255,var(--cc));border-color:rgba(0,0,0,var(--a));border-radius:var(--aw);border-width:var(--ax);color:rgba(0,0,0,var(--cb));display:block;font-family:var(--ay);font-size:.875rem;font-weight:var(--ayWeight);padding:.5rem 2rem;-webkit-text-decoration:none;text-decoration:none;text-transform:uppercase;white-space:pre;width:-webkit-min-content;width:min-content}.g[data-custom-style=button]:focus{border-radius:var(--aw)}.g[data-custom-style=link][data-active=true]{font-weight:var(--cd)}.g[data-custom-style=button][data-variant=primary]{background:var(--am);border-color:var(--aq);color:var(--ao)}.g[data-custom-style=button][data-variant=primary]:hover{background:var(--an);color:var(--ap)}.g[data-custom-style=button][data-variant=secondary]{background:var(--ar);border-color:var(--av);color:var(--at)}.g[data-custom-style=button][data-variant=secondary]:hover{background:var(--as);color:var(--au)}.g[data-custom-style=button][data-variant=tertiary]{background:var(--ce);border-color:var(--cf);color:var(--cg)}.g[data-custom-style=button][data-variant=tertiary]:hover{background:var(--ch);color:var(--ci)}.g[data-size-mobile=small]{font-size:.875rem;padding:var(--bb)}.g[data-size-mobile=normal]{font-size:1rem;padding:var(--bd)}.g[data-size-mobile=big],.g[data-size-mobile=full]{font-size:1.125rem;padding:var(--bf)}.g[data-size-mobile=full]{width:100%}.h{margin-right:7px}.i{max-width:100%}.j{z-index:1}@media (min-width:1024px){.g[data-size=small]{font-size:var(--ba);padding:var(--bb)}.g[data-size=normal]{font-size:var(--bc);padding:var(--bd)}.g[data-size=big]{font-size:var(--be);padding:var(--bf)}.g[data-size-mobile=full]{font-size:1.125rem;padding:var(--bf);width:100%}.j{left:0;margin:auto;position:absolute;right:0;width:8pc}}.k{align-items:center;display:flex;height:auto;margin-left:.75rem;width:-webkit-min-content;width:min-content}.k img{max-width:6.8pc}@media (min-width:1024px){.k{height:3.25rem;margin-left:0}.k img{max-width:8pc}}.l{position:absolute;right:var(--m);z-index:1}.l>*{margin-left:.5rem;margin-right:0}.m[data-hidden-in-mobile=true]{display:none}.n{margin-left:auto;margin-right:auto;padding-left:var(--m);padding-right:var(--m)}.o{align-content:center;height:auto;overflow:hidden;width:100vw;z-index:0}.p{font-family:var(--ak);font-size:1rem;line-height:1.5rem}.p:empty{height:.75rem}.q{align-content:center;-webkit-background-position:top;background-position:top;background-repeat:no-repeat;height:100%;left:0;overflow:hidden;position:absolute;top:0;width:100%}@media (max-width:768px){.q{-webkit-background-position:center;background-position:50%}.v{background-color:var(--ac);padding-top:var(--nMobile)}}@media (min-width:768px){:root #ch2-settings>.ch2-btn.ch2-deny-all-btn{margin-top:24px}:root .ch2-settings-actions>.ch2-btn{margin-right:auto;width:215px}.i{max-width:42rem}.n{padding-left:0;padding-right:0}.q{-webkit-background-position:center;background-position:50%;background-repeat:no-repeat}}.r{max-width:20rem;position:relative}.s{color:var(--l)}.t{align-content:center;background-color:var(--ac);font-size:var(--bwFooter,--bw);text-align:center}@media (min-width:1024px){.m[data-hidden-in-mobile=true]{display:inline-block}.t{font-size:var(--caFooter,--ca)}}@media print{.t{display:none}}.u{color:var(--cl);margin:auto}.u a{color:var(--cm)}.u a[data-testid=backgroundLink]{color:var(--ah)}.v{max-width:100%;padding-left:var(--m);padding-right:var(--m);position:relative;width:100%}.v *{margin-left:auto;margin-right:auto}@media (min-width:768px){.v{background-color:var(--ac);padding-bottom:0;padding-left:var(--m);padding-right:var(--m);padding-top:var(--n)}}.w,.x{max-width:100%;position:relative}.x{padding-left:0;padding-right:0;width:100%}.x *{margin-left:auto;margin-right:auto}.y{position:relative;text-align:center}.y,.z{max-width:100%}.z{-ms-flex-line-pack:center;-webkit-box-pack:center;-ms-flex-pack:center;align-content:center;display:flex;flex-direction:column;font-size:var(--bg);gap:1.25rem;justify-content:center}@media (min-width:1024px){.z{display:grid;flex:none;grid-template-columns:auto auto auto auto auto auto auto auto}}.aa{display:flex}.aa,.ab{width:100%}.ab{max-width:100%;padding-left:var(--m);padding-right:var(--m);position:relative}.ab *{margin-left:auto;margin-right:auto}@media (min-width:768px){.x{background-color:var(--ac);padding-bottom:0;padding-left:var(--m);padding-right:var(--m);padding-top:0}.ab{padding-bottom:0;padding-left:var(--m);padding-right:var(--m);padding-top:0}}.ac,.ad{position:relative}.ad{max-width:100%;padding-left:0;padding-right:0;width:100%}.ad *{margin-left:auto;margin-right:auto}@media (max-width:768px){.x{background-color:var(--ac)}.ad{padding-bottom:2rem;padding-top:1.25rem}}@media (min-width:768px){.ad{padding:0}}.ae{display:inline-block;max-width:24rem;position:relative;width:100%;z-index:1}.af{margin-left:auto;margin-right:auto}.ag{clip:rect(0,0,0,0);border-width:0;height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;white-space:nowrap;width:1px}.ag:checked+div{border-bottom-width:0;border-radius:1rem 1rem 0 0}.ag:checked+div label:after{margin-top:.09rem;right:.6rem;-webkit-transform:rotate(180deg);transform:rotate(180deg)}.ag:checked~div{display:block;margin-bottom:1px}.ah{background-color:var(--ab);border-color:var(--ae);border-radius:1.5rem;border-style:solid;border-width:1px;padding:.25rem 1.25rem .25rem .25rem;text-align:left}.ai{-webkit-box-pack:start;-ms-flex-pack:start;align-items:center;cursor:pointer;display:grid;gap:.5rem;grid-auto-flow:column;justify-content:flex-start;max-width:calc(100% - 1.25rem);width:100%}.ai:after{background-color:var(--af);content:"";height:1.25rem;margin-top:.175rem;-webkit-mask-image:url(data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNDE2LjA2NCAyMTQuNjU2IDI1NiAzNzguMDE2IDk1LjkzNiAyMTQuNjU2bDQ5Ljk2OC00OC44TDI1NiAyNzguMjA4bDExMC4wOTYtMTEyLjM1MlpNNTA0IDI1NkM1MDQgMTE5LjI0OCAzOTIuNzUyIDggMjU2IDhTOCAxMTkuMjQ4IDggMjU2czExMS4yNDggMjQ4IDI0OCAyNDggMjQ4LTExMS4yNDggMjQ4LTI0OFoiLz48L3N2Zz4=);-webkit-mask-repeat:no-repeat;-webkit-mask-size:1.15rem;right:.5rem;width:1.25rem}.ai:after,.aj{position:absolute}.aj{border-bottom-left-radius:1rem;border-bottom-right-radius:1rem;border-style:solid;border-width:1px;display:none;width:100%}.ak{background-color:var(--ab);cursor:pointer}.ak:last-child{border-bottom-left-radius:1rem;border-bottom-right-radius:1rem}.ak:hover{background-color:var(--ae)}.al{display:block;font-weight:var(--al);padding:.25rem 1.25rem;text-align:left;-webkit-text-decoration:none;text-decoration:none;width:100%}.al:first-child{padding-top:.5rem}.al:last-child{padding-bottom:.5rem}.al:hover{-webkit-text-decoration:none;text-decoration:none}.am{max-width:100%;padding-left:0;padding-right:0;position:relative;width:100%}.am *{margin-left:auto;margin-right:auto}.an{margin-bottom:.75rem;margin-top:.75rem;overflow:hidden;position:relative}.ao{-ms-overflow-style:none;-webkit-box-align:flex-start;-ms-flex-align:flex-start;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-flex-wrap:wrap;align-items:flex-start;display:flex;flex-wrap:wrap;justify-content:center;place-items:center;scrollbar-width:none}.ao::-webkit-scrollbar{display:none}items-start .ao::-webkit-scrollbar{-webkit-appearance:none;height:0;width:0}@media (min-width:1536px){.ao{-webkit-box-flex-wrap:nowrap;flex-wrap:nowrap}}@media (min-width:768px){.am{padding-bottom:0;padding-left:var(--m);padding-right:var(--m);padding-top:0}.ao{-webkit-box-pack:center;-ms-flex-pack:center;display:flex;justify-content:center;padding:0}}.ao>div{margin:.5rem .25rem 0;max-width:9rem}@media (min-width:640px){.ao>div{max-width:8rem}}@media (min-width:1024px){.ao>div{margin-left:.25rem;margin-right:.25rem;max-width:none}}.ap figure{max-width:140px;min-width:140px}.aq figure{max-width:45px;min-width:45px}.ar{border-color:var(--ad);border-width:var(--bh)}.ar,.as{width:100%}.as{max-width:100%;padding-left:var(--m);padding-right:var(--m);position:relative}.as *{margin-left:auto;margin-right:auto}@media (max-width:768px){.as{background-color:var(--ac);padding-bottom:2rem;padding-top:2rem}}@media (min-width:768px){.as{background-color:var(--ac);padding-bottom:0;padding-left:var(--m);padding-right:var(--m);padding-top:0}}.at{max-width:56rem;position:relative}.au{font:var(--cn)}.au,.au *{color:var(--k);font-family:var(--ak)!important;font-size:var(--t)!important;font-weight:var(--aj)!important;line-height:1;width:100%}@media (max-width:1024px){.au,.au>*{font-family:var(--ak)!important;font-size:var(--tMobile)!important;font-weight:var(--aj)!important;width:100%}}.av{max-width:100%;padding-left:var(--m);padding-right:var(--m);position:relative;width:100%}.av *{margin-left:auto;margin-right:auto}@media (max-width:768px){.av{padding-bottom:var(--nMobile)}}@media (min-width:768px){.av{padding-bottom:var(--n);padding-left:var(--m);padding-right:var(--m);padding-top:0}}.aw{font:var(--cn)}.aw,.aw *{color:var(--j);font-family:var(--ak)!important;font-size:var(--s)!important;font-weight:var(--aj)!important;line-height:1;margin-bottom:.75rem;width:100%}@media (max-width:1024px){.aw,.aw>*{font-family:var(--ak)!important;font-size:var(--sMobile)!important;font-weight:var(--aj)!important;margin-bottom:.75rem;width:100%}}@media (max-width:375px){.au,.aw{-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}}.ax{bottom:0;position:sticky}.ay{-ms-flex-item-align:flex-start;--cb:1;--cc:1;--a:1;align-self:flex-start;background-color:rgba(255,255,255,var(--cc));background:var(--am);border-color:var(--aq);border-radius:var(--aw);border-width:var(--ax);bottom:1.25rem;color:rgba(0,0,0,var(--cb));color:var(--ao);font-family:var(--ay);font-size:.875rem;font-weight:var(--ayWeight);padding:.75rem;position:absolute;right:.75rem;-webkit-text-decoration:none;text-decoration:none;text-transform:uppercase;white-space:pre;width:-webkit-min-content;width:min-content;z-index:3}@media print{.ay{display:none}.bc{background-color:#fff!important;color:#000!important}}.ay:focus{border-radius:var(--aw)}.ay .loading-icon{-webkit-animation:1s linear infinite a;animation:1s linear infinite a;display:none}.ay .comment-icon,.ay .loading-icon,.ay.loading .loading-icon{height:1.25rem;width:1.25rem}.ay.loading .loading-icon{display:block}.ay.loading .comment-icon{display:none;height:1.25rem;width:1.25rem}.ay.hidden{display:none}.az{-webkit-box-pack:center;-ms-flex-pack:center;align-items:center;display:flex;justify-content:center}.ba{height:1.25rem;width:1.25rem}.bb{display:none;margin-left:.5rem}@media (min-width:768px){.ay{padding:.5rem 1.25rem}.bb{display:inline-block}}.bc{-webkit-box-pack:center;-ms-flex-pack:center;font-size:var(--bw,14px);justify-content:center;line-height:1.625;padding-bottom:0;text-align:center}.bd,.be{max-width:64rem;position:relative}.be{text-align:left}@media (min-width:1024px){.bc{font-size:var(--ca,1pc)}.be{text-align:left}}.bf{list-style-type:disc;margin-bottom:1.25rem;padding-left:1.25rem;width:100%}.bg{margin-bottom:.75rem}.bh{align-items:center;border-color:var(--ae);display:flex;flex-direction:column;margin-bottom:1.25rem;padding-bottom:1.25rem;padding-top:1.25rem;width:100%}.bi{font-family:var(--ai);font-size:var(--rMobile);font-weight:var(--aj);line-height:1.5rem}.bj{max-width:100%;padding-left:0;padding-right:0;position:relative;width:100%}.bj *{margin-left:auto;margin-right:auto}@media (max-width:768px){.bj{padding-top:var(--pMobile)}}@media (min-width:768px){.bi{font-size:var(--r);line-height:2.5rem}.bj{padding-bottom:0;padding-left:var(--m);padding-right:var(--m);padding-top:var(--p)}}.bk{max-width:100%;padding-left:var(--m);padding-right:var(--m);position:relative;width:100%}.bk *{margin-left:auto;margin-right:auto}@media (max-width:768px){.bk{padding-bottom:var(--pMobile)}}.bl{-ms-overflow-style:none;-webkit-box-align:flex-start;-ms-flex-align:flex-start;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-box-flex-wrap:wrap;align-items:flex-start;display:flex;flex-wrap:wrap;justify-content:center;place-items:center;scrollbar-width:none}.bl::-webkit-scrollbar{display:none}items-start .bl::-webkit-scrollbar{-webkit-appearance:none;height:0;width:0}@media (min-width:1536px){.bl{-webkit-box-flex-wrap:nowrap;flex-wrap:nowrap}}@media (min-width:768px){.bk{padding-bottom:var(--p);padding-left:var(--m);padding-right:var(--m);padding-top:0}.bl{-webkit-box-pack:center;-ms-flex-pack:center;display:flex;justify-content:center;padding:0}}.bl>div{margin-left:.5rem;margin-right:.5rem;max-width:9rem}@media (min-width:640px){.bl>div{max-width:8rem}}@media (min-width:1024px){.bl>div{margin-left:.5rem;margin-right:.5rem;max-width:none}}.bm figure{max-width:97px;min-width:97px}.bn{max-width:80rem;position:relative;text-align:center}.bo{-ms-flex-line-pack:center;-webkit-box-pack:center;-ms-flex-pack:center;align-content:center;display:flex;flex-direction:column;font-size:var(--bg);justify-content:center;max-width:100%}@media (min-width:1024px){.bo{display:grid;flex:none;grid-template-columns:auto auto auto}}.bp{max-width:100%;padding-left:var(--m);padding-right:var(--m);position:relative;width:100%}.bp *{margin-left:auto;margin-right:auto}@media (min-width:768px){.bp{padding:0}}</style></noscript>
+    <script
+        type="module">const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){if(void 0===e.target.dataset.mainImage)return;if(void 0===e.target.dataset.gatsbyImageSsr)return;const t=e.target;let
+        a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity500ms linear")}))}),!0);</script>
+        <link rel="preconnect" href="https://cdn.sanity.io">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link as="script" rel="preload" href="/kernel-b41567766fe40bd39e25.js">
+        <link as="script" rel="preload" href="/visual-effects-25403090b15ae147beff.js">
+        <link as="script" rel="preload" href="/zd-live-chat-2e0f80ed654dd37af214.js">
+        <link as="script" rel="preload" href="/custom-vpn-0b2b719858d6bd15afb2.js">
+        <link as="script" rel="preload" href="/live-jackpot-client-e1f7045f915d110582c8.js">
+        <link as="script" rel="preload" href="/listen-cookie-hub-initialise-event-7b7824c2916a8a7fb42e.js">
+        <link as="script" rel="preload" href="/get-jackpot-pots-c0e5a881ece78e29fdfd.js">
+        <title data-rh="true">Deposits and Withdrawals at Winsly Casino</title>
+        <meta data-rh="true" name="robots" content="index,follow">
+        <meta data-rh="true" name="description" content="Winsly Casino offers numerous easy and safe payment options. Instant deposits as standard and the fastest withdrawals. Pay N Play now!">
+        <meta data-rh="true" property="og:description" content="Winsly Casino offers numerous easy and safe payment options. Instant deposits as standard and the fastest withdrawals. Pay N Play now!">
+        <meta data-rh="true" property="article:updated_time" content="2024-05-27T13:47:53Z">
+        <meta data-rh="true" property="article:published_time" content="2023-07-25T10:19:37Z">
+        <meta data-rh="true" property="og:type" content="article">
+        <meta data-rh="true" property="og:title" content="Deposits and Withdrawals at Winsly Casino">
+        <meta data-rh="true" property="og:locale" content="en">
+        <meta data-rh="true" property="og:site_name" content="Winsly">
+        <meta data-rh="true" property="og:url" content="https://www.winsly.com/payments/">
+        <meta data-rh="true" name="twitter:card" content="summary">
+        <link data-rh="true" rel="icon" href="https://ik.imagekit.io/3uh/landing/winsly/images/Screenshot%202023-07-25%20at%2015.39.03_XXUzV7V-X.png?ik-s=07bb54ff55e43b603f0bf80e11c1a90388d5b669" type="image/svg+xml">
+        <link data-rh="true" rel="apple-touch-icon" href="https://ik.imagekit.io/3uh/tr:h-180,w-180,f-png/landing/winsly/images/Screenshot%202023-07-25%20at%2015.39.03_XXUzV7V-X.png?ik-s=57e69376cb3a7e9557a4beb3d3b3e1ebaff53947">
+        <link data-rh="true" rel="canonical" href="https://www.winsly.com/payments/">
+        <link data-rh="true" rel="alternate" hreflang="x-default" href="https://www.winsly.com/payments/">
+        <link data-rh="true" rel="alternate" hreflang="fi" href="https://www.winsly.com/fi/payments/">
+        <script data-rh="true" async src="https://www.googletagmanager.com/gtag/js?id=G-PPRSK7LSTJ"></script>
+        <script data-rh="true">
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                window.dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'G-PPRSK7LSTJ');
+        </script>
+        <script data-rh="true">
+            window.pathPrefix = "/"
+        </script>
+</head>
+
+<body data-cookie-hub-url="https://cdn.cookiehub.eu/c2/a2bd4d80.js" data-country="AM" data-ab-tests="">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "@id": "https://www.winsly.com#website",
+            "url": "https://www.winsly.com"
+        }
+    </script>
+    <header class="a">
+        <div id="navigationMenuBackground" data-fade-background="false" data-fade-background-mobile="false" class="b"></div>
+        <div class="c">
+            <div class="d">
+                <div class="e">
+                    <div data-size="normal" data-size-mobile="normal" class="f">
+                        <a id="navigation_menu-casino_link" data-custom-style="link" data-size="normal" data-size-mobile="normal" data-testid="navigation_menu-casino_link" data-has-icon="true" data-active="false" class="g">
+                            <div class="h">
+                                <figure role="group" data-testid="navigation_menu-casino_link" class="i">
+                                    <picture>
+                                        <source sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw" srcset="https://ik.imagekit.io/3uh/tr:w-350:/landing/winsly/ASSETS/Casino_IPHQ8AZ3s.svg?ik-s=59fb2d9c0513275b8c2915b3b777e4e4eddc1ecd 350w,https://ik.imagekit.io/3uh/tr:w-700:/landing/winsly/ASSETS/Casino_IPHQ8AZ3s.svg?ik-s=ec6fe21baa9d9774fa5421647d13474b88f88169 700w,https://ik.imagekit.io/3uh/tr:w-400:/landing/winsly/ASSETS/Casino_IPHQ8AZ3s.svg?ik-s=4e5b9888832abaa4cc99c639f3402321debedceb 400w,https://ik.imagekit.io/3uh/tr:w-800:/landing/winsly/ASSETS/Casino_IPHQ8AZ3s.svg?ik-s=aae37a5de52ab1a53e2080908a8dc4d7cbb6c844 800w,https://ik.imagekit.io/3uh/tr:w-630:/landing/winsly/ASSETS/Casino_IPHQ8AZ3s.svg?ik-s=4019632dd3cbe1245dffc5f3b9b2315a954ab797 630w,https://ik.imagekit.io/3uh/tr:w-1260:/landing/winsly/ASSETS/Casino_IPHQ8AZ3s.svg?ik-s=f2cc48cdd3c141570eccea2f9591d6ebdc15b8e5 1260w,https://ik.imagekit.io/3uh/tr:w-735:/landing/winsly/ASSETS/Casino_IPHQ8AZ3s.svg?ik-s=36d6951ad9b774fcb77fddbaf84cb8a7a26507c7 735w,https://ik.imagekit.io/3uh/tr:w-1470:/landing/winsly/ASSETS/Casino_IPHQ8AZ3s.svg?ik-s=e167fc22bbabdf835f59fb119d02e45193788d47 1470w"><img src="https://ik.imagekit.io/3uh/landing/winsly/ASSETS/Casino_IPHQ8AZ3s.svg?ik-s=78fd645ee165aa04d79bcab3a36c451395bcda6c" width="17.59" height="18" sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw"
+                                            alt="Casino" loading="lazy" class="bq"></picture>
+                                </figure>
+                            </div>CASINO</a>
+                    </div>
+                    <div data-size="normal" data-size-mobile="normal" class="f">
+                        <a id="navigation_menu-sports_link" href="https://lobby.winsly.com/en/sports/" data-custom-style="link" data-size="normal" data-size-mobile="normal" data-testid="navigation_menu-sports_link" data-has-icon="true" data-active="false"
+                            class="g">
+                            <div class="h">
+                                <figure role="group" data-testid="navigation_menu-sports_link" class="i">
+                                    <picture>
+                                        <source sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw" srcset="https://ik.imagekit.io/3uh/tr:w-350:/landing/winsly/ASSETS/Sports_AMQBRGuSS.svg?ik-s=931fffad0a9001aaad3ec3b25f65cd23c2717383 350w,https://ik.imagekit.io/3uh/tr:w-700:/landing/winsly/ASSETS/Sports_AMQBRGuSS.svg?ik-s=41ab32d25224fa3470e7e31f90e9a25d716b542d 700w,https://ik.imagekit.io/3uh/tr:w-400:/landing/winsly/ASSETS/Sports_AMQBRGuSS.svg?ik-s=463f4128d7628b8bd946490e8d4ca2c10c298508 400w,https://ik.imagekit.io/3uh/tr:w-800:/landing/winsly/ASSETS/Sports_AMQBRGuSS.svg?ik-s=54e9456a09c852a394df16bf1d22ab030bad1910 800w,https://ik.imagekit.io/3uh/tr:w-630:/landing/winsly/ASSETS/Sports_AMQBRGuSS.svg?ik-s=7b4b04e00adc4778a66e7f590bada737a9acd71b 630w,https://ik.imagekit.io/3uh/tr:w-1260:/landing/winsly/ASSETS/Sports_AMQBRGuSS.svg?ik-s=b711b36fd3aeda118b5073a36bc6521510573c0d 1260w,https://ik.imagekit.io/3uh/tr:w-735:/landing/winsly/ASSETS/Sports_AMQBRGuSS.svg?ik-s=748458cc3244d1ee944c915611253bf76e312d84 735w,https://ik.imagekit.io/3uh/tr:w-1470:/landing/winsly/ASSETS/Sports_AMQBRGuSS.svg?ik-s=65fbb99f7198835e304afb3dbc16b3ad3d9fe65a 1470w"><img src="https://ik.imagekit.io/3uh/landing/winsly/ASSETS/Sports_AMQBRGuSS.svg?ik-s=a6a21eafe7f9ef70d5ba898baaf5c860e06259be" width="17.59" height="18" sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw"
+                                            alt="Sports" loading="lazy" class="bq"></picture>
+                                </figure>
+                            </div>SPORTS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="j">
+                <a href="/home/index.html" aria-label="Winsly Casino" width="128" data-testid="navigation-menu_logo" class="k">
+                    <figure role="group" class="i">
+                        <picture>
+                            <source sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw" srcset="https://ik.imagekit.io/3uh/tr:w-350:/landing/winsly/logo_XuGvd2Tu_.svg?ik-s=e67bc388e993f9bf1a716a329257aaeff3873bde 350w,https://ik.imagekit.io/3uh/tr:w-700:/landing/winsly/logo_XuGvd2Tu_.svg?ik-s=b0b2ce0bd642eafc0725c5d5967a6bedece0f74d 700w,https://ik.imagekit.io/3uh/tr:w-400:/landing/winsly/logo_XuGvd2Tu_.svg?ik-s=2e46b4cc96fc23a3b71024f01de87bede23505e2 400w,https://ik.imagekit.io/3uh/tr:w-800:/landing/winsly/logo_XuGvd2Tu_.svg?ik-s=ec52bf479f34c81380e28529ef84626a5cebcbb8 800w,https://ik.imagekit.io/3uh/tr:w-630:/landing/winsly/logo_XuGvd2Tu_.svg?ik-s=45fcbdda885cebfa58fc45f9339cee8a5cee960c 630w,https://ik.imagekit.io/3uh/tr:w-1260:/landing/winsly/logo_XuGvd2Tu_.svg?ik-s=75998fa5ccd4e3f8fa5f2bf49fab7c0cfa9e1f20 1260w,https://ik.imagekit.io/3uh/tr:w-735:/landing/winsly/logo_XuGvd2Tu_.svg?ik-s=71c7d8d1a423bf92ba807bd31ced0edd360021ce 735w,https://ik.imagekit.io/3uh/tr:w-1470:/landing/winsly/logo_XuGvd2Tu_.svg?ik-s=a33d760d0937f5d6642ccfe6953927fd316ba888 1470w"><img src="https://ik.imagekit.io/3uh/landing/winsly/logo_XuGvd2Tu_.svg?ik-s=c867a7cb90f6691dccf0af4a90d0f753478d77d5" width="128" height="55" sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw" alt="Casino Logo"
+                                loading="lazy" class="bq"></picture>
+                    </figure>
+                </a>
+            </div>
+            <div class="l"><span class="m"><div data-size="small" data-size-mobile="small" class="f"><a id="navigation-menu_link1" href="https://lobby.winsly.com/en/login/" data-variant="secondary" data-custom-style="button" data-size="small" data-size-mobile="small" data-has-icon="false" data-active="false" class="g">SIGN IN</a></div></span></div>
+        </div>
+    </header>
+    <main class="bc">
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "inLanguage": "en",
+                "url": "https://www.winsly.com/",
+                "description": "Winsly Casino offers numerous easy and safe payment options. Instant deposits as standard and the fastest withdrawals. Pay N Play now!",
+                "@type": "WebPage",
+                "@id": "https://www.winsly.com/#webpage",
+                "name": "Deposits and Withdrawals at Winsly Casino",
+                "speakable": {
+                    "@type": "SpeakableSpecification",
+                    "cssSelector": ["#br__12"]
+                },
+                "isPartOf": "https://www.winsly.com#website"
+            }
+        </script>
+        <div class="n"></div>
+        <article data-domain="winsly.com" data-zendesk-key="c9c57f4d-c34e-4913-aa22-2de4e56adf60" data-zendesk-tags="winsly" data-locale="en" data-locale-path data-currency="EUR" data-currency-symbol="€" data-currency-config="{&quot;SE&quot;:[{&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;symbol&quot;:&quot;€&quot;}],&quot;NL&quot;:[{&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;symbol&quot;:&quot;€&quot;}],&quot;FI&quot;:[{&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;symbol&quot;:&quot;€&quot;}],&quot;FR&quot;:[{&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;symbol&quot;:&quot;€&quot;}],&quot;DE&quot;:[{&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;symbol&quot;:&quot;€&quot;}],&quot;CA&quot;:[{&quot;currencyCode&quot;:&quot;CAD&quot;,&quot;symbol&quot;:&quot;$&quot;}],&quot;DK&quot;:[{&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;symbol&quot;:&quot;€&quot;}],&quot;NO&quot;:[{&quot;currencyCode&quot;:&quot;NOK&quot;,&quot;symbol&quot;:&quot;kr&quot;}],&quot;NZ&quot;:[{&quot;currencyCode&quot;:&quot;NZD&quot;,&quot;symbol&quot;:&quot;$&quot;}],&quot;JP&quot;:[{&quot;currencyCode&quot;:&quot;JPY&quot;,&quot;symbol&quot;:&quot;¥&quot;}],&quot;ROW&quot;:[{&quot;currencyCode&quot;:&quot;EUR&quot;,&quot;symbol&quot;:&quot;€&quot;}]}"
+            data-lobby-graphql-host="lobby.frenwall.io" data-redirections="[{&quot;countries&quot;:[{&quot;code&quot;:&quot;FI&quot;}],&quot;from&quot;:&quot;/&quot;,&quot;to&quot;:&quot;/fi/&quot;}]" data-keycloak-enabled="false">
+            <div class="bj">
+                <div class="q">
+                    <div class="o"></div>
+                </div>
+                <div class="bd">
+                    <header class="bh">
+                        <h2 class="bi">DEPOSITS AND WITHDRAWALS</h2>
+                    </header>
+                </div>
+            </div>
+            <div class="bk">
+                <div class="q">
+                    <div class="o"></div>
+                </div>
+                <div class="be">
+                    <div class="x">
+                        <div class="q">
+                            <div class="o"></div>
+                        </div>
+                        <div class="bn">
+                            <p class="p"></p>
+                            <p class="p"></p>
+                            <div class="bo">
+                                <div class="aa">
+                                    <div class="bp">
+                                        <div class="q">
+                                            <div class="o"></div>
+                                        </div>
+                                        <div class="ac">
+                                            <div class="link-image-list-wrapper undefined an">
+                                                <section class="link-image-list bl">
+                                                    <div width="97" class="bm">
+                                                        <figure role="group" class="i">
+                                                            <picture>
+                                                                <source sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw" srcset="https://ik.imagekit.io/3uh/tr:w-350:/landing/Color-payment%20icons/instant-bank-transfer_s2Xf9rIAU.svg?ik-s=74d29c74076604fc55db741e4543e2b65cdf976e 350w,https://ik.imagekit.io/3uh/tr:w-700:/landing/Color-payment%20icons/instant-bank-transfer_s2Xf9rIAU.svg?ik-s=a2883b5e6fdfd7d53d9931c97feaf1472c7b0eea 700w,https://ik.imagekit.io/3uh/tr:w-400:/landing/Color-payment%20icons/instant-bank-transfer_s2Xf9rIAU.svg?ik-s=bf11643b7541cd96645e43f2dc8c8b4ad396f1af 400w,https://ik.imagekit.io/3uh/tr:w-800:/landing/Color-payment%20icons/instant-bank-transfer_s2Xf9rIAU.svg?ik-s=70c20b731d3665b5eda8fc8784e830f9918b0120 800w,https://ik.imagekit.io/3uh/tr:w-630:/landing/Color-payment%20icons/instant-bank-transfer_s2Xf9rIAU.svg?ik-s=1efe412620a9810c92a6caf7a289a06af41faac0 630w,https://ik.imagekit.io/3uh/tr:w-1260:/landing/Color-payment%20icons/instant-bank-transfer_s2Xf9rIAU.svg?ik-s=0c6143ecc53d703f60fd1acb79ec563e87c7020c 1260w,https://ik.imagekit.io/3uh/tr:w-735:/landing/Color-payment%20icons/instant-bank-transfer_s2Xf9rIAU.svg?ik-s=c4ca179e4e30416a125f3540d718d106a18b0a4e 735w,https://ik.imagekit.io/3uh/tr:w-1470:/landing/Color-payment%20icons/instant-bank-transfer_s2Xf9rIAU.svg?ik-s=d5756f3cf8bbc5237d86a84320828389045d9345 1470w"><img src="https://ik.imagekit.io/3uh/landing/Color-payment%20icons/instant-bank-transfer_s2Xf9rIAU.svg?ik-s=276d6fabd8659cbbfe75ff43353c0ce724345552" width="97" height="42" sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw"
+                                                                    alt="Direct bank transfer" loading="lazy" class="bq"></picture>
+                                                        </figure>
+                                                    </div>
+                                                    <div width="97" class="bm">
+                                                        <figure role="group" class="i">
+                                                            <picture>
+                                                                <source sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw" srcset="https://ik.imagekit.io/3uh/tr:w-350:/landing/Color-payment%20icons/mastercard_dJ3JB71Jf.svg?ik-s=2b06eb15350aeedd7995a7ab06305395cd1cf489 350w,https://ik.imagekit.io/3uh/tr:w-700:/landing/Color-payment%20icons/mastercard_dJ3JB71Jf.svg?ik-s=b383b565060eeabaf41c207ddeae24fe9fab2f68 700w,https://ik.imagekit.io/3uh/tr:w-400:/landing/Color-payment%20icons/mastercard_dJ3JB71Jf.svg?ik-s=57094bdca7d272ba93942e593a2114f0ea6685e3 400w,https://ik.imagekit.io/3uh/tr:w-800:/landing/Color-payment%20icons/mastercard_dJ3JB71Jf.svg?ik-s=c40c00b897dba68509ae3a99939d5ccea2792043 800w,https://ik.imagekit.io/3uh/tr:w-630:/landing/Color-payment%20icons/mastercard_dJ3JB71Jf.svg?ik-s=bbfe5ebaa74031bf0e5276e04a02f1920b39564d 630w,https://ik.imagekit.io/3uh/tr:w-1260:/landing/Color-payment%20icons/mastercard_dJ3JB71Jf.svg?ik-s=2751c005e3f44f5ea7925f5e81fe06b90a9c3d02 1260w,https://ik.imagekit.io/3uh/tr:w-735:/landing/Color-payment%20icons/mastercard_dJ3JB71Jf.svg?ik-s=93537542e2a855bf6b2d4529e1fb3193cafc793c 735w,https://ik.imagekit.io/3uh/tr:w-1470:/landing/Color-payment%20icons/mastercard_dJ3JB71Jf.svg?ik-s=788bb8b4015e05c6ed44cbc1a7df0d36a395286c 1470w"><img src="https://ik.imagekit.io/3uh/landing/Color-payment%20icons/mastercard_dJ3JB71Jf.svg?ik-s=885929f5203a3b4fc6290ae4672ca839527e44be" width="97" height="42" sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw"
+                                                                    alt="Mastercard" loading="lazy" class="bq"></picture>
+                                                        </figure>
+                                                    </div>
+                                                    <div width="97" class="bm">
+                                                        <figure role="group" class="i">
+                                                            <picture>
+                                                                <source sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw" srcset="https://ik.imagekit.io/3uh/tr:w-350:/landing/Color-payment%20icons/visa_3wKsIbfvsI.svg?ik-s=cd97428775afc67d9c6891ca5dfea5598a3d47f3 350w,https://ik.imagekit.io/3uh/tr:w-700:/landing/Color-payment%20icons/visa_3wKsIbfvsI.svg?ik-s=6b3489bd25e67aff1e7bab0931d9aceba38d970a 700w,https://ik.imagekit.io/3uh/tr:w-400:/landing/Color-payment%20icons/visa_3wKsIbfvsI.svg?ik-s=f210937a608912e284b6407c231124860f1371a3 400w,https://ik.imagekit.io/3uh/tr:w-800:/landing/Color-payment%20icons/visa_3wKsIbfvsI.svg?ik-s=501837d21dc74e1366e5ee082dcc39f6467cd88a 800w,https://ik.imagekit.io/3uh/tr:w-630:/landing/Color-payment%20icons/visa_3wKsIbfvsI.svg?ik-s=b5ead24fd4c61c5adb15fb04af84be66856744df 630w,https://ik.imagekit.io/3uh/tr:w-1260:/landing/Color-payment%20icons/visa_3wKsIbfvsI.svg?ik-s=17e42af45141fc22054b7e451fd669e8899d8234 1260w,https://ik.imagekit.io/3uh/tr:w-735:/landing/Color-payment%20icons/visa_3wKsIbfvsI.svg?ik-s=34d092774fb5239ba72e7aea88a24155f7595ba8 735w,https://ik.imagekit.io/3uh/tr:w-1470:/landing/Color-payment%20icons/visa_3wKsIbfvsI.svg?ik-s=da579a64430008a71a2714c00ff7a4460368e641 1470w"><img src="https://ik.imagekit.io/3uh/landing/Color-payment%20icons/visa_3wKsIbfvsI.svg?ik-s=dc23f0d43c00f8d4af1aa20b9b8ae37e8f1a555c" width="97" height="42" sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw"
+                                                                    alt="Visa" loading="lazy" class="bq"></picture>
+                                                        </figure>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="aa">
+                                    <div class="bp">
+                                        <div class="q">
+                                            <div class="o"></div>
+                                        </div>
+                                        <div class="ac">
+                                            <div class="link-image-list-wrapper undefined an">
+                                                <section class="link-image-list bl">
+                                                    <div width="97" class="bm">
+                                                        <figure role="group" class="i">
+                                                            <picture>
+                                                                <source sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw" srcset="https://ik.imagekit.io/3uh/tr:w-350:/landing/Color-payment%20icons/apple-pay_ZQe0VD5mI.svg?ik-s=94a6cd934fb27510fde63c87a89b3bf5e7b8c878 350w,https://ik.imagekit.io/3uh/tr:w-700:/landing/Color-payment%20icons/apple-pay_ZQe0VD5mI.svg?ik-s=4b97f4954d33f68c3332f8a91cc9a6f93ccc3330 700w,https://ik.imagekit.io/3uh/tr:w-400:/landing/Color-payment%20icons/apple-pay_ZQe0VD5mI.svg?ik-s=4e131522169da18b922751d94e3c585641cef6bf 400w,https://ik.imagekit.io/3uh/tr:w-800:/landing/Color-payment%20icons/apple-pay_ZQe0VD5mI.svg?ik-s=d344f52da4d90207014fc9562e2bf8a6b9073358 800w,https://ik.imagekit.io/3uh/tr:w-630:/landing/Color-payment%20icons/apple-pay_ZQe0VD5mI.svg?ik-s=50c6430a902036c3060872b3f116ad2a94aa9e7f 630w,https://ik.imagekit.io/3uh/tr:w-1260:/landing/Color-payment%20icons/apple-pay_ZQe0VD5mI.svg?ik-s=f44341b7772cc4b4c9fc62390d124b1e1953c804 1260w,https://ik.imagekit.io/3uh/tr:w-735:/landing/Color-payment%20icons/apple-pay_ZQe0VD5mI.svg?ik-s=95f4b31075e177fd4116ce5acd55a4e1f7581a0f 735w,https://ik.imagekit.io/3uh/tr:w-1470:/landing/Color-payment%20icons/apple-pay_ZQe0VD5mI.svg?ik-s=3a719b7f022141d4d2b7c1f9a914eaf2df1a96c9 1470w"><img src="https://ik.imagekit.io/3uh/landing/Color-payment%20icons/apple-pay_ZQe0VD5mI.svg?ik-s=10f1f17d692055fbad183f7be6ef1dae3c74b4d0" width="97" height="42" sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw"
+                                                                    alt="ApplePay" loading="lazy" class="bq"></picture>
+                                                        </figure>
+                                                    </div>
+                                                    <div width="97" class="bm">
+                                                        <figure role="group" class="i">
+                                                            <picture>
+                                                                <source sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw" srcset="https://ik.imagekit.io/3uh/tr:w-350:/landing/Color-payment%20icons/Interac%20(1)_b6Qu__Obf.svg?ik-s=d013337ce5dfc9f0e857f23904055b286b9b1372 350w,https://ik.imagekit.io/3uh/tr:w-700:/landing/Color-payment%20icons/Interac%20(1)_b6Qu__Obf.svg?ik-s=0e0457b8443d4d923dbe91b609f4064e11580aa9 700w,https://ik.imagekit.io/3uh/tr:w-400:/landing/Color-payment%20icons/Interac%20(1)_b6Qu__Obf.svg?ik-s=a2952373477b77e977df25d704bc96eeeb3a1915 400w,https://ik.imagekit.io/3uh/tr:w-800:/landing/Color-payment%20icons/Interac%20(1)_b6Qu__Obf.svg?ik-s=45b8394593cf860b8719be59327eda2565cc1f0f 800w,https://ik.imagekit.io/3uh/tr:w-630:/landing/Color-payment%20icons/Interac%20(1)_b6Qu__Obf.svg?ik-s=362a1af02ab4748acf609fd05ffe147950655f55 630w,https://ik.imagekit.io/3uh/tr:w-1260:/landing/Color-payment%20icons/Interac%20(1)_b6Qu__Obf.svg?ik-s=4d466e5b992729897ede764defff3505eda219da 1260w,https://ik.imagekit.io/3uh/tr:w-735:/landing/Color-payment%20icons/Interac%20(1)_b6Qu__Obf.svg?ik-s=0a1ce8110dd1ed924b139610060564116289bf3e 735w,https://ik.imagekit.io/3uh/tr:w-1470:/landing/Color-payment%20icons/Interac%20(1)_b6Qu__Obf.svg?ik-s=9366bb1264430bf1f21a77142017ea1d80b582a1 1470w"><img src="https://ik.imagekit.io/3uh/landing/Color-payment%20icons/Interac%20(1)_b6Qu__Obf.svg?ik-s=46f219130d2491eb78e286b71cb66d1df3ad5971" width="97" height="42" sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw"
+                                                                    alt="Interac" loading="lazy" class="bq"></picture>
+                                                        </figure>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="aa">
+                                    <div class="bp">
+                                        <div class="q">
+                                            <div class="o"></div>
+                                        </div>
+                                        <div class="ac">
+                                            <div class="link-image-list-wrapper undefined an">
+                                                <section class="link-image-list bl">
+                                                    <div width="97" class="bm">
+                                                        <figure role="group" class="i">
+                                                            <picture>
+                                                                <source sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw" srcset="https://ik.imagekit.io/3uh/tr:w-350:/landing/Color-payment%20icons/jeton_nviQsjW_GE.svg?ik-s=f1ca03ffd77b77ec1e0a1ee564c170147a5dff9e 350w,https://ik.imagekit.io/3uh/tr:w-700:/landing/Color-payment%20icons/jeton_nviQsjW_GE.svg?ik-s=9b47786813f2ad286f2e6a076bd34f6cef5ad88b 700w,https://ik.imagekit.io/3uh/tr:w-400:/landing/Color-payment%20icons/jeton_nviQsjW_GE.svg?ik-s=a1177b5e5a0a044ec0db21844dd512b76b331fdb 400w,https://ik.imagekit.io/3uh/tr:w-800:/landing/Color-payment%20icons/jeton_nviQsjW_GE.svg?ik-s=88a29088f78040db7ce8c23a6cb182dc6cdd2889 800w,https://ik.imagekit.io/3uh/tr:w-630:/landing/Color-payment%20icons/jeton_nviQsjW_GE.svg?ik-s=bc85cfdda57b242c105e84d2848f7a9919a7fcd3 630w,https://ik.imagekit.io/3uh/tr:w-1260:/landing/Color-payment%20icons/jeton_nviQsjW_GE.svg?ik-s=9a570a09a4b9b5b0963b154fae2b28c70793813d 1260w,https://ik.imagekit.io/3uh/tr:w-735:/landing/Color-payment%20icons/jeton_nviQsjW_GE.svg?ik-s=0a31b9d18c88ac6f793b0b815febe025842df009 735w,https://ik.imagekit.io/3uh/tr:w-1470:/landing/Color-payment%20icons/jeton_nviQsjW_GE.svg?ik-s=9142e8da0d7349771417c85a445badbb87e0419f 1470w"><img src="https://ik.imagekit.io/3uh/landing/Color-payment%20icons/jeton_nviQsjW_GE.svg?ik-s=6ae781b8803da7bbf3398bbf04f4b13814fc191a" width="97" height="42" sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw"
+                                                                    alt="Jeton" loading="lazy" class="bq"></picture>
+                                                        </figure>
+                                                    </div>
+                                                    <div width="97" class="bm">
+                                                        <figure role="group" class="i">
+                                                            <picture>
+                                                                <source sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw" srcset="https://ik.imagekit.io/3uh/tr:w-350:/landing/Color-payment%20icons/neosurf_khjiExJ04.svg?ik-s=8ed1ed131a65a84cb69b27b09633cb8644403680 350w,https://ik.imagekit.io/3uh/tr:w-700:/landing/Color-payment%20icons/neosurf_khjiExJ04.svg?ik-s=6952f304c81811af0e97a3f76450b306a2dd9a49 700w,https://ik.imagekit.io/3uh/tr:w-400:/landing/Color-payment%20icons/neosurf_khjiExJ04.svg?ik-s=1adc794315936492977a3e9905abf8bc4d67ccaa 400w,https://ik.imagekit.io/3uh/tr:w-800:/landing/Color-payment%20icons/neosurf_khjiExJ04.svg?ik-s=63ff2fc24794ef6fd6c5773f042beba59e6317e0 800w,https://ik.imagekit.io/3uh/tr:w-630:/landing/Color-payment%20icons/neosurf_khjiExJ04.svg?ik-s=68842e1db23cec9d3cbf6aad8227434a3d2ef995 630w,https://ik.imagekit.io/3uh/tr:w-1260:/landing/Color-payment%20icons/neosurf_khjiExJ04.svg?ik-s=558add3963af6c1401234bcaa6823b6b806fcf1d 1260w,https://ik.imagekit.io/3uh/tr:w-735:/landing/Color-payment%20icons/neosurf_khjiExJ04.svg?ik-s=9ab50fc56b3168a307250982b381cb9bf731a989 735w,https://ik.imagekit.io/3uh/tr:w-1470:/landing/Color-payment%20icons/neosurf_khjiExJ04.svg?ik-s=fd838cda8db07537f582f1abfedec30a13258ead 1470w"><img src="https://ik.imagekit.io/3uh/landing/Color-payment%20icons/neosurf_khjiExJ04.svg?ik-s=848fec09107acb049b33c9241566e616b289216a" width="97" height="42" sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw"
+                                                                    alt="Neosurf" loading="lazy" class="bq"></picture>
+                                                        </figure>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="p"></p>
+                            <p class="p"></p>
+                        </div>
+                    </div>
+                    <p class="p"></p>
+                    <p class="p"></p>
+                    <p class="p"></p>
+                    <p class="p">Enjoy seamless transactions at Winsly Casino and Sportsbook! We guarantee stress-free deposits and withdrawals through a variety of payment methods. Select the option that suits you best and deposit now!</p>
+                    <p class="p"></p>
+                    <p class="p"><br><strong>Winsly payment methods:</strong></p>
+                    <p class="p"></p>
+                    <ul class="bf">
+                        <li class="bg">Instant Bank Transfer*</li>
+                        <li class="bg">Visa / Mastercard</li>
+                        <li class="bg">MiFinity</li>
+                        <li class="bg">Interac</li>
+                        <li class="bg">Revolut</li>
+                        <li class="bg">Jeton</li>
+                        <li class="bg">AstroPay Card<br></li>
+                    </ul>
+                    <div data-size="small" data-size-mobile="normal" class="f"><a href="https://lobby.winsly.com/en/login/?autoSignIn=1&amp;signType=signup" data-variant="primary" data-custom-style="button" data-size="small" data-size-mobile="normal" data-testid="sign-in" data-has-icon="false" data-active="false"
+                            class="g">DEPOSIT NOW</a></div>
+                    <p class="p"><br><strong>* </strong>Instant Bank Transfer deposits are instant. Withdrawals made using bank transfer are processed on the same working day. Players typically receive their winnings within one working day. Please be aware that during
+                        weekends and bank holidays, there may be slight delays.</p>
+                    <p class="p"></p>
+                    <p class="p"></p>
+                    <p class="p"><strong>Questions about payments? </strong>Or anything else on Winsly Casino? Our beautiful support team is ready to help you on live chat! Prefer email? Get in touch at <a href="/cdn-cgi/l/email-protection#2f474a435f6f5846415c4356014c4042"
+                            rel="noopener noreferrer nofollow" target="_blank" class="s"><span class="__cf_email__" data-cfemail="2f474a435f6f5846415c4356014c4042">[email&#160;protected]</span></a>.</p>
+                    <p class="p"></p>
+                    <p class="p"></p>
+                    <p class="p">Payment fees may occasionally be applied on transactions depending on the chosen payment method, bank, card issuer and country of the bank.</p>
+                </div>
+            </div>
+            <hr class="ar">
+        </article>
+    </main>
+    <footer class="t">
+        <div class="u">
+            <div class="v">
+                <div class="q">
+                    <div class="o"></div>
+                </div>
+                <div class="w">
+                    <div class="x">
+                        <div class="q">
+                            <div class="o"></div>
+                        </div>
+                        <div class="y">
+                            <div class="z">
+                                <div class="aa">
+                                    <p class="p"><a href="/whoweare/who-we-are.html" rel="noopener noreferrer" target class="s"><strong>WHO WE ARE</strong></a></p>
+                                </div>
+                                <div class="aa">
+                                    <p class="p"><a href="/plaayers-term/index.html" rel="noopener noreferrer" target class="s"><strong>PLAYER TERMS</strong></a></p>
+                                </div>
+                                <div class="aa">
+                                    <p class="p"><a href="/safegamin/index.html" rel="noopener noreferrer" target class="s"><strong>SAFE GAMING</strong></a></p>
+                                </div>
+                                <div class="aa">
+                                    <p class="p"><a href="/payments/index.html" rel="noopener noreferrer" target class="s"><strong>PAYMENTS</strong></a></p>
+                                </div>
+                                <div class="aa">
+                                    <p class="p"><a href="/privacy/index.html" rel="noopener noreferrer" target class="s"><strong>PRIVACY</strong></a></p>
+                                </div>
+                                <div class="aa">
+                                    <p class="p"><a href="/cookie/index.html" rel="noopener noreferrer" target class="s"><strong>COOKIES</strong></a></p>
+                                </div>
+                                <!-- <div class="aa">
+                                    <p class="p"><a href="https://www.79affiliates.com/" rel="noopener noreferrer" target="_blank" class="s"><strong>AFFILIATES</strong></a></p>
+                                </div> -->
+                                <div class="aa">
+                                    <p class="p"><a href="/contact/index.html rel="noopener noreferrer" target class="s"><strong>CONTACT US</strong></a></p>
+                                </div>
+                            </div>
+                            <p class="p"></p>
+                            <div class="ab">
+                                <div class="q">
+                                    <div class="o"></div>
+                                </div>
+                                <div class="ac">
+                                    <p class="p"><a href="/sister-site/index.html" rel="noopener noreferrer" target class="s"><strong>SISTER CASINO SITES</strong></a></p>
+                                </div>
+                            </div>
+                            <p class="p"></p>
+                            <p class="p"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ad">
+                <div class="q">
+                    <div class="o"></div>
+                </div>
+                <div class="r">
+                    <div class="ae">
+                        <div class="af"><input type="checkbox" id="language-selector" class="ag">
+                            <div class="ah"><label for="language-selector" class="ai"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 20"><g id="noun-globe-5397904" transform="translate(-86.8 -16.801)" opacity="0.8"><path id="Path_371927" data-name="Path 371927" d="M96.8,16.8a10.011,10.011,0,1,0,7.068,2.932A10,10,0,0,0,96.8,16.8Zm0,19.149c-1.106,0-2.259-1.4-2.981-3.76.946-.09,1.949-.138,2.981-.138s2.035.048,2.981.138C99.059,34.548,97.906,35.95,96.8,35.95Zm0-4.749c-1.11,0-2.191.054-3.209.156a19.312,19.312,0,0,1-.5-4.131h7.412a19.31,19.31,0,0,1-.5,4.131c-1.017-.1-2.1-.156-3.209-.156Zm0-13.549c1.106,0,2.259,1.4,2.981,3.76-.946.09-1.949.138-2.981.138s-2.035-.048-2.981-.138C94.541,19.054,95.694,17.652,96.8,17.652Zm0,4.749c1.11,0,2.191-.054,3.209-.156a19.311,19.311,0,0,1,.5,4.131H93.094a19.311,19.311,0,0,1,.5-4.131c1.017.1,2.1.156,3.209.156Zm-4.557,3.975H87.662a9.1,9.1,0,0,1,1.746-4.956,18.277,18.277,0,0,0,3.339.726,20.259,20.259,0,0,0-.5,4.23Zm0,.851a20.263,20.263,0,0,0,.5,4.23,18.263,18.263,0,0,0-3.339.727,9.092,9.092,0,0,1-1.746-4.957Zm9.114,0h4.581a9.092,9.092,0,0,1-1.746,4.957,18.268,18.268,0,0,0-3.339-.727,20.261,20.261,0,0,0,.5-4.23Zm0-.851a20.26,20.26,0,0,0-.5-4.23,18.281,18.281,0,0,0,3.339-.726,9.094,9.094,0,0,1,1.746,4.956Zm2.261-5.666a18.414,18.414,0,0,1-2.984.608A8.961,8.961,0,0,0,98.91,17.9a9.155,9.155,0,0,1,4.709,2.809ZM94.69,17.9a8.984,8.984,0,0,0-1.725,3.417,18.413,18.413,0,0,1-2.984-.608A9.154,9.154,0,0,1,94.69,17.9ZM89.982,32.893a18.428,18.428,0,0,1,2.983-.608A8.966,8.966,0,0,0,94.69,35.7a9.154,9.154,0,0,1-4.708-2.809ZM98.91,35.7a8.987,8.987,0,0,0,1.725-3.417h0a18.427,18.427,0,0,1,2.983.608A9.155,9.155,0,0,1,98.91,35.7Z" fill="#fff"/></g></svg>Select your language</label></div>
+                            <div
+                                class="aj">
+                                <div class="ak"><button data-language="language-selector-link" data-language-selector-locale="/payments/:en" class="al">English</button></div>
+                                <div class="ak"><button data-language="language-selector-link" data-language-selector-locale="/fi/payments/:fi" class="al">Suomi</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="am">
+            <div class="q">
+                <div class="o"></div>
+            </div>
+            <div class="ac">
+                <div class="link-image-list-wrapper undefined an">
+                    <section class="link-image-list ao">
+                        <div width="140" class="ap">
+                            <a href="https://mtr.ttja.ee/juriidiline_isik/343658/valjavoteEdit?tulemus=Tegevusluba">
+                                <figure role="group" class="i">
+                                    <picture>
+                                        <source sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw" srcset="https://ik.imagekit.io/3uh/tr:w-350:/landing/winsly/Group%20247246_OzGQ2_FBd.png?ik-s=e04e9b0359afa2a5c34f25746153abb544ddbf78 350w,https://ik.imagekit.io/3uh/tr:w-700:/landing/winsly/Group%20247246_OzGQ2_FBd.png?ik-s=76f3234d477f6484d0a81addccc1bdaf2b9ddeee 700w,https://ik.imagekit.io/3uh/tr:w-400:/landing/winsly/Group%20247246_OzGQ2_FBd.png?ik-s=e3503cd17e1e6b4e89f40eaa68eb608a4d89923d 400w,https://ik.imagekit.io/3uh/tr:w-800:/landing/winsly/Group%20247246_OzGQ2_FBd.png?ik-s=b29d493e685841d6fce835c325e5a8319e551451 800w,https://ik.imagekit.io/3uh/tr:w-630:/landing/winsly/Group%20247246_OzGQ2_FBd.png?ik-s=893c5abbb96639536c8282443962a3361253262e 630w,https://ik.imagekit.io/3uh/tr:w-1260:/landing/winsly/Group%20247246_OzGQ2_FBd.png?ik-s=a6bd4e4c2d64d312b15096df77e8914877c0afb4 1260w,https://ik.imagekit.io/3uh/tr:w-735:/landing/winsly/Group%20247246_OzGQ2_FBd.png?ik-s=d269885798a26051908ac72f3e9e3cab9876d1e0 735w,https://ik.imagekit.io/3uh/tr:w-1470:/landing/winsly/Group%20247246_OzGQ2_FBd.png?ik-s=81da026cb6589ea61e045e7204f82b40016d9886 1470w"><img src="https://ik.imagekit.io/3uh/landing/winsly/Group%20247246_OzGQ2_FBd.png?ik-s=b0480c5a46e255bde21974fbd47e952f2796672e" width="140" height="45" sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw"
+                                            alt="Certificate" loading="lazy" class="bq"></picture>
+                                </figure>
+                            </a>
+                        </div>
+                        <div width="45" class="aq">
+                            <figure role="group" class="i">
+                                <picture>
+                                    <source sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw" srcset="https://ik.imagekit.io/3uh/tr:w-350:/landing/winsly/Group%20247245_57GZpGYZH.png?ik-s=4bc99f84c8f2c1d17c25d6e344e8b510edac5792 350w,https://ik.imagekit.io/3uh/tr:w-700:/landing/winsly/Group%20247245_57GZpGYZH.png?ik-s=2312403eac28c7b6292e2b67b522f6197df5ce8c 700w,https://ik.imagekit.io/3uh/tr:w-400:/landing/winsly/Group%20247245_57GZpGYZH.png?ik-s=83dd97891a27f93e012cb2b182608b89db3bdda0 400w,https://ik.imagekit.io/3uh/tr:w-800:/landing/winsly/Group%20247245_57GZpGYZH.png?ik-s=6ecad5bdf4142ef4c23f86e1557e2d7111da0d0e 800w,https://ik.imagekit.io/3uh/tr:w-630:/landing/winsly/Group%20247245_57GZpGYZH.png?ik-s=45e870b61ce56f01ba08af4e68cc4addd88f7a36 630w,https://ik.imagekit.io/3uh/tr:w-1260:/landing/winsly/Group%20247245_57GZpGYZH.png?ik-s=6e77a8baa91425349ae13837b5bcf1123ebad0a8 1260w,https://ik.imagekit.io/3uh/tr:w-735:/landing/winsly/Group%20247245_57GZpGYZH.png?ik-s=135a8fe71581a0f51ac8133931310cc878b8d8b0 735w,https://ik.imagekit.io/3uh/tr:w-1470:/landing/winsly/Group%20247245_57GZpGYZH.png?ik-s=d6f42be4dc8633f4ad5f74595fea9588c8c6473d 1470w"><img src="https://ik.imagekit.io/3uh/landing/winsly/Group%20247245_57GZpGYZH.png?ik-s=655f9f078bfe89c6e590ea466b3a41325e8d510c" width="45" height="46" sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw"
+                                        alt="+18" loading="lazy" class="bq"></picture>
+                            </figure>
+                        </div>
+                        <div width="140" class="ap">
+                            <a href="https://15410.ee/">
+                                <figure role="group" class="i">
+                                    <picture>
+                                        <source sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw" srcset="https://ik.imagekit.io/3uh/tr:w-350:/landing/winsly/Group%20247244_YgLg8pY1_.png?ik-s=149427fd81e40b06d22642d9c9f8b0bfcf6f8120 350w,https://ik.imagekit.io/3uh/tr:w-700:/landing/winsly/Group%20247244_YgLg8pY1_.png?ik-s=c159e541bb349542d908baa736b8f737c15a201a 700w,https://ik.imagekit.io/3uh/tr:w-400:/landing/winsly/Group%20247244_YgLg8pY1_.png?ik-s=55210c16428c1073354862af006b7ac9090cbc1a 400w,https://ik.imagekit.io/3uh/tr:w-800:/landing/winsly/Group%20247244_YgLg8pY1_.png?ik-s=5947f4e36ee99f51a132df1d97dca4823684f7dd 800w,https://ik.imagekit.io/3uh/tr:w-630:/landing/winsly/Group%20247244_YgLg8pY1_.png?ik-s=4eebd8b3e8304569a92380d3144b5d3139707d9a 630w,https://ik.imagekit.io/3uh/tr:w-1260:/landing/winsly/Group%20247244_YgLg8pY1_.png?ik-s=56568919a913217b4599777e8d0b8ee9515601b1 1260w,https://ik.imagekit.io/3uh/tr:w-735:/landing/winsly/Group%20247244_YgLg8pY1_.png?ik-s=969041506e7f57d800ffc876a65cb40680443ba2 735w,https://ik.imagekit.io/3uh/tr:w-1470:/landing/winsly/Group%20247244_YgLg8pY1_.png?ik-s=591df3e54e2a563187b29fe6517238f1f7750755 1470w"><img src="https://ik.imagekit.io/3uh/landing/winsly/Group%20247244_YgLg8pY1_.png?ik-s=104943dcf4a711adde85b937037cdcb7f8105503" width="140" height="45" sizes="(min-width: 1024px) 735px, (min-width: 640px) 640px, 100vw"
+                                            alt="RGP" loading="lazy" class="bq"></picture>
+                                </figure>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <hr class="ar">
+        <div class="as">
+            <div class="q">
+                <div class="o"></div>
+            </div>
+            <div class="at">
+                <div data-size="normal" data-size-mobile="normal" class="f"><a href="https://spil-uden-om-rofus.net/" data-custom-style="link" data-size="normal" data-size-mobile="normal" data-testid="backgroundLink" data-has-icon="false" data-active="false" class="g">spil uden om rofus</a></div><span class="au"><p class="p">Winsly (<a href="https://www.winsly.com/" rel="noopener noreferrer nofollow" target="_blank" class="s">www.winsly.com</a>) is operated by Frenwall Limited, a company duly registered in Cyprus, with company registration number HE447452 and registered address at Stasikratous, 32, 3rd Floor, Flat/Office 301, 1065, Nicosia, Cyprus.<br><br>Frenwall Limited is licensed and regulated by the Estonian Tax and Customs Board under activity license numbers HKT000082 and HKT000083 and operating permit numbers HKL000440 and HKL000442.</p><p class="p"><br>Winsly is a trademark of Frenwall Limited.<br><br>© Frenwall Limited<br></p></span></div>
+        </div>
+        <hr class="ar">
+        <div class="av">
+            <div class="q">
+                <div class="o"></div>
+            </div>
+            <div class="at"><span class="aw"><p class="p"></p><p class="p">Attention! Gambling can be addictive. Gambling does not solve financial problems. In case of addiction or problems, contact: <a href="https://15410.ee/" rel="noopener noreferrer nofollow" target="_blank" class="s">https://15410.ee/</a>. Please read the <a href="/player-terms/" rel="noopener noreferrer nofollow" target="_blank" class="s">Terms and Conditions</a> and <a href="/safe-gaming/" rel="noopener noreferrer nofollow" target="_blank" class="s">play responsibly</a>.<br><br>Tähelepanu! Hasartmängudes osalemine võib tekitada sõltuvust. Sõltuvuse või probleemide tekkimisel võta ühendust: <a href="https://15410.ee/" rel="noopener noreferrer nofollow" target="_blank" class="s">https://15410.ee/</a>. Tutvu reeglitega ja käitu vastutustundlikult!</p></span></div>
+        </div>
+        </div>
+    </footer>
+    <div class="ax"><button id="liveChatButton" aria-label="Chat" class="ay"><div class="az"><span class="ba"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="loading-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M12 19C15.866 19 19 15.866 19 12C19 8.13401 15.866 5 12 5C8.13401 5 5 8.13401 5 12C5 15.866 8.13401 19 12 19ZM12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" fill="currentColor"/><path d="M2 12C2 6.47715 6.47715 2 12 2V5C8.13401 5 5 8.13401 5 12H2Z" fill="currentColor"/></svg><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="comment-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M256 32C114.6 32 0 125.1 0 240c0 47.6 19.9 91.2 52.9 126.3C38 405.7 7 439.1 6.5 439.5c-6.6 7-8.4 17.2-4.6 26S14.4 480 24 480c61.5 0 110-25.7 139.1-46.3C192 442.8 223.2 448 256 448c141.4 0 256-93.1 256-208S397.4 32 256 32zm0 368c-26.7 0-53.1-4.1-78.4-12.1l-22.7-7.2-19.5 13.8c-14.3 10.1-33.9 21.4-57.5 29 7.3-12.1 14.4-25.7 19.9-40.2l10.6-28.1-20.6-21.8C69.7 314.1 48 282.2 48 240c0-88.2 93.3-160 208-160s208 71.8 208 160-93.3 160-208 160z"/></svg></span><span class="bb">Chat</span></div></button></div>
+    <script
+        data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+        <script id="entries">
+            window.entries = ["/geolocation-d589d99e2bc6f7fa895a.js", "/geo-redirections-ad9e87ab11d0ac096fbe.js", "/download-terms-fc9addcdc37227e0d5dd.js", "/change-language-323a79cbd6128416d236.js", "/registration-forms-7d2dfbf12589834e822e.js", "/breadcrumbs-2c70d3e6ca9544d39fc8.js"]
+        </script>
+        <script src="/kernel-b41567766fe40bd39e25.js" async></script>
+        <script src="/visual-effects-25403090b15ae147beff.js" async></script>
+        <script src="/zd-live-chat-2e0f80ed654dd37af214.js" async></script>
+        <script src="/custom-vpn-0b2b719858d6bd15afb2.js" async></script>
+        <script src="/live-jackpot-client-e1f7045f915d110582c8.js" async></script>
+        <script src="/listen-cookie-hub-initialise-event-7b7824c2916a8a7fb42e.js" async></script>
+        <script src="/get-jackpot-pots-c0e5a881ece78e29fdfd.js" async></script>
+</body>
+
+</html>
